@@ -1,6 +1,5 @@
 const textInput = document.querySelector("#name-input");
 const output = document.querySelector("#name-output");
-console.log(textInput.textContent);
 
 output.innerHTML = "Anonymous";
 
