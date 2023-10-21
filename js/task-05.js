@@ -10,7 +10,7 @@ textInput.addEventListener("input", (event) => {
     
 
 
-    if (textInput === "") {
+    if (inputValue === "") {
       output.innerHTML = "Anonymous";
     }
 });
