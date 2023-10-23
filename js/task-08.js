@@ -7,7 +7,7 @@ function handleSubmit(event) {
     const form = event.target;
     const login = form.elements.email.value;
     const password = form.elements.password.value;
-    const userObject = { Login: login, Password: password };
+    const userObject = { login: login, password: password };
 
     if (login === "" || password === "") {
         alert("Всі поля мають бути заповнені");
